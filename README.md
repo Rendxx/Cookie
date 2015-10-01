@@ -10,12 +10,12 @@ set / get / delete cookie.
      $$.cookie.set(name)
 Set cookie: cookie[name] = name  
 
-######  &nbsp;
+<div><br></div>
 
      $$.cookie.set(name, value)
 Set cookie: cookie[name] = value
 
-######  &nbsp;
+<div><br></div>
 
      $$.cookie.set(opts)
 Set cookie with options
@@ -28,24 +28,32 @@ Set cookie with options
   + **path**: cookie path (optional)
   + **secure**: boolean value to indicate whether this cookie is secure or not (optional)
 
-
-######  &nbsp;
+<div><br></div>
     
      $$.cookie.get(name)
 (string) Fetch certain cookie value by its name.  
 return null if not found.
 
-######  &nbsp;
+<div><br></div>
     
      $$.cookie.del(opts)
 Delete a cookie of the given name / domain / path.
 
-######  &nbsp;
+***NOTE**: Cookies with different **path / domain** are considered as different entities.*  
+*Make sure you use the same options to delete the cookie with specialized path / domain.*
+<div><br></div>
     
      $$.cookie.del(name)
 Delete a cookie of the given name.
 
-######  &nbsp;
+<div><br></div>
+
+# Code Sample
+JavaScript:
+
+    $$.cookie.set("test","BlaBlaBla"); // set cookie["test"] = "BlaBlaBla"
+    var val = $$.cookie.get("test"); // get value of cookie["test"]
+    $$.cookie.del("test"); // delete cookie["test"]
 
 # Compatibility
 - Chrome
