@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="wwwroot/lib/jquery.js"></script>
+    <script type="text/javascript" src="wwwroot/js/index.js"></script>
+    <script type="text/javascript" src="wwwroot/js/Cookie.js"></script>
+    <link type="text/css" rel="stylesheet" href="wwwroot/css/index.css"/>
+    <title></title>
+</head>
+<body>
+    <div class="wrap-input">
+        <div class="input-item">
+            <div class="tag">Name</div>
+            <input type="text" name="input-name" value="test" placeholder="name is necessary" />
+        </div>
+        <div class="input-item">
+            <div class="tag">Value</div>
+            <input type="text" name="input-value" value="value 1" placeholder="null" />
+        </div>
+        <div class="input-item">
+            <div class="tag">Expire Time (Hour)</div>
+            <input type="text" name="input-expires" value="2" placeholder="null" />
+        </div>
+        <div class="input-item">
+            <div class="tag">Domain</div>
+            <input type="text" name="input-domain" value="" placeholder="null" />
+        </div>
+        <div class="input-item">
+            <div class="tag">Path</div>
+            <input type="text" name="input-path" value="" placeholder="null" />
+        </div>
+        <div class="input-item">
+            <div class="radio-btn radio-btn-yes"> YES </div>
+            <div class="radio-btn radio-btn-no"> NO </div>
+            <div class="tag">Secure</div>
+        </div>
+    </div>
+    <div class="wrap-btn">
+        <div class="btn btn-set">Set Cookie</div>
+        <div class="btn btn-get">Get Cookie by Name</div>
+        <div class="btn btn-del">Delete Cookie by Name/Domain/Path</div>
+    </div>
+    <div class="wrap-result">
+    </div>
+</body>
+</html>

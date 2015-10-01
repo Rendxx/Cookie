@@ -1,0 +1,176 @@
+﻿
+.wrap-input {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-top: -190px;
+    margin-left: -300px;
+    border-right: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.input-item {
+    margin: 0 20px;
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+
+    .tag {
+        position: absolute;
+        bottom: 4px;
+        left: 0;
+        text-align: right;
+        width: 100px;
+        height: 13px;
+        line-height: 13px;
+        color: #999;
+        font-size: 13px;
+        cursor: default;
+    }
+
+    input[type=text] {
+        display: block;
+        margin: 0;
+        padding: 2px;
+        padding-top: 21px;
+        border: 0;
+        background: none;
+        color: #333;
+        height: 16px;
+        line-height: 16px;
+        text-align: left;
+        margin-left: 50px;
+        padding-left: 75px;
+        padding-right: 15px;
+        font-size: 16px;
+        width: 120px;
+        border-bottom: 1px dashed #ddd;
+    }
+
+    .radio-btn {
+        color: #999;
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 16px;
+        float: left;
+        cursor: pointer;
+
+        &:first-child {
+            margin-left: 125px !important;
+        }
+
+        &:hover {
+            color: #333;
+        }
+
+        &.checked {
+            color: #0094ff;
+            cursor: default;
+        }
+    }
+}
+
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #ccc;
+    font-style: italic;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+    opacity: 1;
+    font-style: italic;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+    opacity: 1;
+    font-style: italic;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ccc;
+    font-style: italic;
+}
+
+input:hover {
+    border-bottom: 1px dashed #0094ff !important;
+}
+
+input:focus {
+    outline-width: 0;
+    border-bottom: 1px solid #0094ff !important;
+}
+
+input.highlight {
+    border-bottom: 1px solid #b6ff00 !important;
+}
+
+.wrap-btn {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-top: -190px;
+    overflow: hidden;
+
+    .btn {
+        cursor: pointer;
+        height: 40px;
+        line-height: 40px;
+        text-align: left;
+        margin: 0 20px;
+        margin-top: 20px;
+        padding: 0 20px;
+        background-color: #fff;
+        color: #666;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 3px 0 #ddd;
+        position: relative;
+        font-size: 12px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 3px;
+            background-color: #0094ff;
+        }
+
+        &:hover {
+            background-color: #0094ff;
+            color: #fff;
+        }
+
+        &:first-child {
+            margin-top: 40px;
+        }
+    }
+}
+
+
+.wrap-result {
+    padding: 20px;
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    margin-top: 70px;
+    margin-left: -220px;
+    overflow: hidden;
+    background-color: #e3e9ed;
+    color: #333;
+    display: none;
+    text-align: center;
+    font-size: 16px;
+}
