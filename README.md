@@ -39,7 +39,7 @@ return null if not found.
      $$.cookie.del(opts)
 Delete a cookie of the given name / domain / path.
 
-***NOTE**: Cookies with different **path / domain** are considered as different entities.*  
+*__NOTE__: Cookies with different __path / domain__ are considered as different entities.*  
 *Make sure you use the same options to delete the cookie with specialized path / domain.*
 <div><br></div>
     
