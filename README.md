@@ -1,7 +1,7 @@
 # Cookie
 set / get / delete cookie.
 
-*Download: [https://github.com/Rendxx/Cookie/releases/tag/3.0 "Download")*
+*Download: [Cookie v3.0](https://github.com/Rendxx/Cookie/releases/tag/3.0 "Download")*
 
 # Dependency
 - [jQuery][]
