@@ -18,7 +18,7 @@
     <Content Include="js\Cookie.js" />
     <Content Include="js\Cookie.min.js" />
     <Content Include="lib\jquery.js" />
-    <Content Include="src\js\script.js" />
+    <Content Include="src\js\Cookie.js" />
     <Content Include="test\sample.html" />
     <Content Include="test\sample.js" />
   </ItemGroup>

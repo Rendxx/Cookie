@@ -3,7 +3,7 @@ Cookie Manager
 Copyright (c) 2014-2015 Dongxu Ren  http://www.rendxx.com/
 
 License: MIT (http://www.opensource.org/licenses/mit-license.php)
-Version: 3.0
+Version: 0.3.0
 Update: 2015-09-10
 
 Description:
