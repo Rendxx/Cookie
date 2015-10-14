@@ -1,44 +1,72 @@
 # API Document
 
-## Set Cookie
-     $$.cookie.set(name)
-Set cookie: cookie[name] = name  
-
-<div><br></div>
-
-     $$.cookie.set(name, value)
+#### [$$.cookie.set (name [, value])]()
 Set cookie: cookie[name] = value
 
-<div><br></div>
+- **name** ```string```  
+Name of the cookie.
 
-     $$.cookie.set(opts)
-Set cookie with options
-
-- opts: 
-  + **name**: name of cookie
-  + **value**: value of cookie (optional)
-  + **expire**: expire time in hour (optional)
-  + **domain**: domain of the cookie (optional)
-  + **path**: cookie path (optional)
-  + **secure**: boolean value to indicate whether this cookie is secure or not (optional)
+- **value** ```string``` ```number``` ```object```  
+Value of the cookie. Equals to **name** if not set.
 
 <div><br></div>
 
-## Get Cookie
-     $$.cookie.get(name)
-(string) Fetch certain cookie value by its name.  
+
+#### [$$.cookie.set (opts)]()
+Set cookie with options.
+>Cookies with different __path / domain__ are considered as different entities.  
+>Set a cookie with same __name / path / domain__ will overwrite its value.
+
+- **opts** ```object``` 
+  + **name** ```string```  
+    Name of cookie.
+
+  + **value** ```string``` ```number``` ```object```  
+    Value of the cookie. Equals to **name** if not set. *(optional)*
+
+  + **expire** ```number```  
+    Expire time in hour. *(optional)*
+
+  + **domain** ```string```  
+    Domain of the cookie. *(optional)*
+
+  + **path** ```string```  
+    Path of the cookie. *(optional)*
+
+  + **secure** ```boolean```  
+    Value to indicate whether this cookie is secure or not *(optional)*
+
+<div><br></div>
+
+#### [$$.cookie.get (name)]() ```string```
+Fetch certain cookie value by its name.  
 return null if not found.
 
+- **name** ```string```  
+    Name of cookie.
+
 <div><br></div>
 
-## Delete Cookie    
->Cookies with different __path / domain__ are considered as different entities.  
-Make sure you use the **exactly same options** to delete the cookie if it is set with specialized path / domain.
   
-     $$.cookie.del(name)
+#### [$$.cookie.del (name)]()
 Delete a cookie of the given name.
 
+- **name** ```string```  
+    Name of cookie.
+
 <div><br></div>
 
-     $$.cookie.del(opts)
+#### [$$.cookie.del (opts)]()
 Delete a cookie of the given name / domain / path.
+>Make sure you use the **exactly same options** to delete the cookie if it is set with specialized path / domain.
+
+- **opts** ```object``` 
+  + **name** ```string```  
+    Name of cookie.
+
+  + **domain** ```string```  
+    Domain of the cookie. *(optional)*
+
+  + **path** ```string```  
+    Path of the cookie. *(optional)*
+<div><br></div>
