@@ -1,5 +1,5 @@
 {
-  "name": "cookie",
+  "name": "r-cookie",
   "description": "set / get / delete cookie.",
   "main": [
     "js/Cookie.js"
