@@ -1,7 +1,8 @@
 {
-  "name": "bower-package-name",
-  "description": "",
+  "name": "cookie",
+  "description": "set / get / delete cookie.",
   "main": [
+    "js/Cookie.js"
   ],
   "dependencies": {
   },
@@ -9,8 +10,11 @@
     "globals"
   ],
   "keywords": [
+    "cookie",
+    "cookies"
   ],
   "authors": [
+    "Dongxu Ren <rendxx@gmail.com> http://www.rendxx.com"
   ],
   "license": "MIT",
   "ignore": [
@@ -19,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git://github.com/Rendxx/Cookie.git"
   },
   "private": false
 }
