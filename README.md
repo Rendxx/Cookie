@@ -3,6 +3,19 @@ set / get / delete cookie.
 
 *Download: [Cookie v0.3.1](https://github.com/Rendxx/Cookie/releases/tag/0.3.1 "Download")*
 
+# Install
+Download the package from bower
+```
+bower install r-cookie --save
+```
+
+Including the file in your webpage
+```HTML
+<script type="text/javascript" src="/node_modules/r-cookie/js/Cookie.js"></script>
+```
+
+See **Code Sample** below for more details.
+
 # API
 [API Document](https://github.com/Rendxx/Cookie/blob/master/API%20Document.md)
 
