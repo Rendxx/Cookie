@@ -3,7 +3,7 @@ set / get / delete cookie.
 
 *Download: [Cookie v0.3.1](https://github.com/Rendxx/Cookie/releases/tag/0.3.1 "Download")*
 
-# Install
+## Install
 Download the package from bower
 ```
 bower install r-cookie --save
@@ -16,13 +16,13 @@ Including the file in your webpage
 
 See **Code Sample** below for more details.
 
-# API
+## API
 [API Document](https://github.com/Rendxx/Cookie/blob/master/API%20Document.md)
 
-# Dependency
+## Dependency
 - [jQuery][]
 
-# Code Sample
+## Code Sample
 JavaScript:
 
 ```javascript
@@ -31,7 +31,12 @@ var val = $$.cookie.get("test"); // get value of cookie["test"]
 $$.cookie.del("test"); // delete cookie["test"]
 ```
 
-# Compatibility
+## Compatibility
 ```Chrome``` ```Fire Fox``` ```Safari``` ```Edge``` ```IE 9-11``` ```IE 7,8```
 
+## License 
+Copyright &copy; 2015, Rendxx. (MIT License)  
+See [LICENSE][] for more info.
+
 [jQuery]: https://jquery.com/ "jQuery Home Page"
+[LICENSE]: https://github.com/Rendxx/Cookie/blob/master/LICENSE
