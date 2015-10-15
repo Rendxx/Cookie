@@ -9,7 +9,7 @@ Name of the cookie.
 - **value** ```string``` ```number``` ```object```  
 Value of the cookie. Equals to **name** if not set.
 
-<div style="border-bottom:1px solid #eee;"><br></div>
+<div class="line-1"><br></div>
 
 #### $$.cookie.set (opts)
 Set cookie with options.
@@ -35,7 +35,7 @@ Set cookie with options.
   + **secure** ```boolean```  
     Value to indicate whether this cookie is secure or not *(optional)*
 
-<div style="border-bottom:1px solid #eee;"><br></div>
+<div class="line-1"><br></div>
 
 #### $$.cookie.get (name) ```string```
 Fetch certain cookie value by its name.  
@@ -44,7 +44,7 @@ return null if not found.
 - **name** ```string```  
     Name of cookie.
 
-<div style="border-bottom:1px solid #eee;"><br></div>
+<div class="line-1"><br></div>
   
 #### $$.cookie.del (name)
 Delete a cookie of the given name.
@@ -52,7 +52,7 @@ Delete a cookie of the given name.
 - **name** ```string```  
     Name of cookie.
 
-<div style="border-bottom:1px solid #eee;"><br></div>
+<div class="line-1"><br></div>
 
 #### $$.cookie.del (opts)
 Delete a cookie of the given name / domain / path.
