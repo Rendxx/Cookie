@@ -1,6 +1,6 @@
 # API Document
 
-#### [$$.cookie.set (name [, value])]()
+#### $$.cookie.set (name [, value])
 Set cookie: cookie[name] = value
 
 - **name** ```string```  
@@ -10,9 +10,10 @@ Name of the cookie.
 Value of the cookie. Equals to **name** if not set.
 
 <div><br></div>
+<div style="background-color:#eee;height:1px;"></div>
 
 
-#### [$$.cookie.set (opts)]()
+#### $$.cookie.set (opts)
 Set cookie with options.
 >Cookies with different __path / domain__ are considered as different entities.  
 >Set a cookie with same __name / path / domain__ will overwrite its value.
@@ -37,8 +38,9 @@ Set cookie with options.
     Value to indicate whether this cookie is secure or not *(optional)*
 
 <div><br></div>
+<div style="background-color:#eee;height:1px;"></div>
 
-#### [$$.cookie.get (name)]() ```string```
+#### $$.cookie.get (name) ```string```
 Fetch certain cookie value by its name.  
 return null if not found.
 
@@ -46,17 +48,19 @@ return null if not found.
     Name of cookie.
 
 <div><br></div>
+<div style="background-color:#eee;height:1px;"></div>
 
   
-#### [$$.cookie.del (name)]()
+#### $$.cookie.del (name)
 Delete a cookie of the given name.
 
 - **name** ```string```  
     Name of cookie.
 
 <div><br></div>
+<div style="background-color:#eee;height:1px;"></div>
 
-#### [$$.cookie.del (opts)]()
+#### $$.cookie.del (opts)
 Delete a cookie of the given name / domain / path.
 >Make sure you use the **exactly same options** to delete the cookie if it is set with specialized path / domain.
 
