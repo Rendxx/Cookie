@@ -1,6 +1,7 @@
 # Cookie
 set / get / delete cookie.
 
+*Sample: [http://www.rendxx.com/Lib/Sample/11](http://www.rendxx.com/Lib/Sample/11 "Sample")*  
 *Download: [Cookie v0.3.1](https://github.com/Rendxx/Cookie/releases/tag/0.3.1 "Download")*
 
 ## Install
